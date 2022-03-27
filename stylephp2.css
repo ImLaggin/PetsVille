@@ -1,0 +1,38 @@
+body{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.certificate {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+body {
+    background-image: url("bgimg__pets.jpg");
+}
+
+.certi-image {
+    height: 400px;
+    width: 600px;
+    margin-bottom: 5px;
+    background-size: cover;
+    padding-top: 0px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.text{
+    width: 100%;
+    position: relative;
+    margin-top: -37%;
+}
+.text h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.img-1 {
+    background-image: url("AdoptionCertificate.png");
+}
+

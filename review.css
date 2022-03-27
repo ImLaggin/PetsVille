@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+body {
+    background-image: url("bgimg__pets.jpg");
+}
+
+.card {
+    background: rgba(0, 255, 0 , 0.3);
+    width: 400px;
+    height: 600px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.card-image {
+    height: 400px;
+    width: 400px;
+    margin-bottom: 15px;
+    background-size:cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.rimg-1 {
+    background-image: url("dogreview1.jpg");
+}
+
+.rimg-2 {
+    background-image: url("dogreview2.png");
+}
+
+.rimg-3 {
+    background-image: url("dogreview3.jpg");
+}
+
+.card h2 {
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+

@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+body {
+    background-image: url("bgimg__pets.jpg");
+}
+
+.card {
+    background: white;
+    width: 400px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.card-image {
+    height:300px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.img-1 {
+    background-image: url("lab_img1.jpg");
+}
+
+.img-2 {
+    background-image: url("golden_img1.jpg");
+}
+
+.img-3 {
+    background-image: url("rott_img1.jpeg");
+}
+
+.img-4 {
+    background-image: url("Beagle_img1.jpeg");
+}
+
+.img-5 {
+    background-image: url("GS__img1.jpg");
+}
+
+.card h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+.card p {
+    padding: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card a {
+    background-color: #606060FF;
+    color: #D6ED17FF;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.card:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  }
+  .card {
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin:30px;
+  }

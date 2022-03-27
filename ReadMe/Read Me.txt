@@ -1,0 +1,5 @@
+This is the web Development Project made by Akshay MS and Arjun A Bhargav.
+
+Please make sure to include all images and css files in the same folder and make a php database in order to execute the Php files.
+
+ 

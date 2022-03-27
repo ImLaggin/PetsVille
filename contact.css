@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+#hr1
+{   
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 20px;
+    background-color: gray;
+}
+
+#hr2{
+    
+    height: 5px;
+    background-color: rgb(77, 138, 130);
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+#left{
+    float:left;
+            width:450px;
+            height:450px;
+            
+            border:solid black;
+            
+}
+
+#mid{
+    float: left;
+    height: 450px;
+    width: 420px;
+    border:solid black ;
+    padding-left: 10px;
+    
+}
+
+#right{
+    float: right;
+    border: solid black;
+    padding-left: 10px;
+    height: 450px;
+    width: 390px;
+}
+
+.contact {
+    background: rgba(255, 255, 255 , 0.4);
+    width: 450px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.contact-image {
+    height: 500px;
+    width: 450px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    padding-right: 40px;
+}
+
+.img-1 {
+    background-image: url("arjun.contact.jpg");
+}
+
+.img-2 {
+    background-image: url("akshay_contact2.jpeg");
+}
+
+.contact p {
+    padding: 10px;
+    font-size: 30px;
+    padding-top: 70px;
+    font-family: 'Montserrat', sans-serif; 
+    color: rgb(0, 0, 0)
+}
+
+.contact:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  }
+  .contact {
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin:30px;
+  }
+
+.socialmedia{
+
+    align-items: left;
+}
